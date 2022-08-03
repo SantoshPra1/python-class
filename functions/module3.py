@@ -1,8 +1,7 @@
 import os
 
 if not os.path.exists('data analysis'):
-
-   os.mkdir("data analysis")
+    os.mkdir("data analysis")
 
 print("the current location")
 print(os.getcwd())
@@ -16,4 +15,5 @@ if os.path.isdir('data analysis'):
 
 if os.path.isfile('set.ipynb'):
     print('set.ipynb is a file')
-print('size of pic',os.path.getsize('operator.ipynb') /1024,'KB')
+
+print('size of pic',os.path.getsize('riot.png')/1024,'KB')
